@@ -178,7 +178,7 @@ const Hero = () => {
                   </Typography>
                   <Typography variant="body2" sx={{ display: 'flex', alignItems: 'center', color: 'text.secondary' }}>
                     <Box component="span" sx={{ mr: 1 }}>📱</Box>
-                    <a href="tel:+19802251696" style={{ color: 'inherit', textDecoration: 'none', '&:hover': { textDecoration: 'underline' } }}>(980) 225-1696</a>
+                    <a href="tel:+19802251696" style={{ color: 'inherit', textDecoration: 'none', '&:hover': { textDecoration: 'underline' } }}>980-225-1696</a>
                   </Typography>
                 </Box>
               </Box>

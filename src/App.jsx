@@ -264,8 +264,8 @@ const App = () => {
     containers: ['Openshift', 'Kubernetes (EKS, AKS)', 'Helm', 'Rancher', 'Docker', 'Docker Swarm'],
     cicd: ['Terraform', 'CloudFormation', 'Ansible', 'YAML', 'JSON', 'Jenkins', 'Azure DevOps', 'GitLab CI/CD'],
     monitoring: ['ELK/OpenSearch', 'CloudWatch', 'Grafana', 'Prometheus', 'Jaeger'],
-    programming: ['Python (FastAPI, Flask, Pandas, etc.)', 'Shell', 'Bash', 'SQL', 'HTML', 'CSS', 'JavaScript'],
-    ai: ['RAG pipelines', 'Embeddings', 'Vector DBs', 'MCPs', 'LangChain/LangGraph', 'OpenSearch vector search'],
+    programming: ['Python (FastAPI, Flask, Pandas)', 'Shell', 'Bash', 'SQL', 'HTML', 'CSS', 'JS'],
+    ai: ['RAG pipelines', 'embeddings', 'vector DBs', 'MCPs', 'LangChain/LangGraph', 'OpenSearch vector search', 'AWS Glue DataBrew', 'Lambda'],
     collaboration: ['Git', 'Bitbucket', 'Jira', 'ServiceNow'],
     os: ['Linux (CentOS, Ubuntu, RHEL)', 'UNIX', 'Windows']
   };
