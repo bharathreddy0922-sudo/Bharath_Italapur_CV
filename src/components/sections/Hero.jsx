@@ -171,31 +171,6 @@ const Hero = () => {
             
             <motion.div variants={itemVariants}>
               <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap', mb: 4 }}>
-                <Button 
-                  variant="contained" 
-                  color="primary" 
-                  size="large"
-                  component="a"
-                  href="mailto:bharathreddy0922@gmail.com?subject=Let's Connect"
-                  sx={{
-                    px: 4,
-                    py: 1.5,
-                    borderRadius: 2,
-                    fontWeight: 600,
-                    textTransform: 'none',
-                    boxShadow: `0 4px 14px ${theme.palette.primary.main}40`,
-                    '&:hover': {
-                      transform: 'translateY(-2px)',
-                      boxShadow: `0 6px 20px ${theme.palette.primary.main}60`,
-                      backgroundColor: theme.palette.primary.dark,
-                    },
-                    transition: 'all 0.3s ease',
-                    textDecoration: 'none',
-                  }}
-                >
-                  Get In Touch
-                </Button>
-                
                 <Box sx={{ mt: 2, display: 'flex', flexDirection: 'column', gap: 1, alignItems: 'flex-start' }}>
                   <Typography variant="body2" sx={{ display: 'flex', alignItems: 'center', color: 'text.secondary' }}>
                     <Box component="span" sx={{ mr: 1 }}>📧</Box>
@@ -206,35 +181,62 @@ const Hero = () => {
                     <a href="tel:+19802251696" style={{ color: 'inherit', textDecoration: 'none', '&:hover': { textDecoration: 'underline' } }}>(980) 225-1696</a>
                   </Typography>
                 </Box>
-
-                <Button 
-                  variant="outlined" 
-                  color="primary" 
-                  size="large"
-                  component={Link}
-                  to="experience"
-                  smooth={true}
-                  duration={500}
-                  offset={-70}
-                  sx={{
-                    px: 4,
-                    py: 1.5,
-                    borderRadius: 2,
-                    fontWeight: 600,
-                    textTransform: 'none',
-                    borderWidth: '2px',
-                    '&:hover': {
-                      borderWidth: '2px',
-                      transform: 'translateY(-2px)',
-                      backgroundColor: 'transparent',
-                      color: 'primary.main',
-                    },
-                    transition: 'all 0.3s ease',
-                  }}
-                >
-                  View My Work
-                </Button>
               </Box>
+
+                <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap' }}>
+                  <Button 
+                    variant="outlined" 
+                    color="primary" 
+                    size="large"
+                    component={Link}
+                    to="experience"
+                    smooth={true}
+                    duration={500}
+                    offset={-70}
+                    sx={{
+                      px: 4,
+                      py: 1.5,
+                      borderRadius: 2,
+                      fontWeight: 600,
+                      textTransform: 'none',
+                      borderWidth: '2px',
+                      '&:hover': {
+                        borderWidth: '2px',
+                        transform: 'translateY(-2px)',
+                        backgroundColor: 'transparent',
+                        color: 'primary.main',
+                      },
+                      transition: 'all 0.3s ease',
+                    }}
+                  >
+                    View My Work
+                  </Button>
+                  <Button 
+                    variant="contained" 
+                    color="primary" 
+                    size="large"
+                    component="a"
+                    href="/Bharath-Resume.pdf"
+                    download="Bharath-Resume.pdf"
+                    sx={{
+                      px: 4,
+                      py: 1.5,
+                      borderRadius: 2,
+                      fontWeight: 600,
+                      textTransform: 'none',
+                      boxShadow: `0 4px 14px ${theme.palette.primary.main}40`,
+                      '&:hover': {
+                        transform: 'translateY(-2px)',
+                        boxShadow: `0 6px 20px ${theme.palette.primary.main}60`,
+                        backgroundColor: theme.palette.primary.dark,
+                      },
+                      transition: 'all 0.3s ease',
+                      textDecoration: 'none',
+                    }}
+                  >
+                    Download Resume
+                  </Button>
+                </Box>
             </motion.div>
             
             <motion.div variants={itemVariants}>
