@@ -216,7 +216,7 @@ const Hero = () => {
                     color="primary" 
                     size="large"
                     component="a"
-                    href="/Bharath-Resume.pdf"
+                    href="/Bharath_Italapur_CV/Bharath-Resume.pdf"
                     download="Bharath-Resume.pdf"
                     sx={{
                       px: 4,
